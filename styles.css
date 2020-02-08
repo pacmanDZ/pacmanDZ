@@ -1,6 +1,13 @@
+.h1{
+  margin-left: 200px;
+  color: gold;
+  font-size: 100px;
+}
+
 .flex {
   outline: thin solid #219;
-  max-width: 600px;
+  max-width: 720px;
+  margin-left: 25%;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -8,23 +15,40 @@
 }
 .item{
   outline: thin solid #218;
-  height: 100px;
+  height: 40px;
   width: 100px;
   background-color: #666fff;
-  order: <integer>;
+  text-align: center;
 }
 
 .grid{
   outline: thin solid #219;
   max-width: 720px;
+  margin-left: 25%;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: 10% 1fr 10%;
-  grid-gap: 2vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1vw;
   }
 .item1{
-  font-size: 5vw;
-  padding: .5em;
+  font-size: 15px;
+  padding: 4em;
   background: gold;
   text-align: center;
+  height: 100px;
+  width: 100px;
 }
+.footer{
+  outline: thin solid #219;
+  max-width: 720px;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    }
+.foot{
+      font-size: 10px;
+      padding: 30px;
+      background: gray;
+      color: white;
+      text-align: center;
+    }
